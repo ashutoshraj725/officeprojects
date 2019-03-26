@@ -24,8 +24,7 @@ public class Assignment1 extends BaseClassChrome {
 		System.out.println("Coin details : "+actual);
 		String expected="20 gram 24 KT Gold Coin";
 		Assert.assertEquals(actual, expected);
-		System.out.println("Assertion Passed");
-		driver.close();
+		System.out.println("Assertion Passed")
 	}
 
 }
